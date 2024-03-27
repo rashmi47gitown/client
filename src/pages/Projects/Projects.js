@@ -51,25 +51,20 @@ const Projects = () => {
             <div className="card rounded">
               <div card-image>
                 <span className="card-notify-badge">Full Stack</span>
-                <img
-                  src="https://reactjsexample.com/content/images/2020/04/WEATHER-APP.png"
-                  alt="Project1"
-                />
+                <img src="portfolio.jpg" alt="Project2" />
                 {/* <img src="project1.png" alt="Project 1" /> */}
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">React</span>
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">Mongodb</span>
+                <span className="card-detail-badge">Bootstrap</span>
               </div>
               <div className="card-body">
                 <div className="ad-title">
-                  <h5 className="text-uppercase">Weather webapp</h5>
+                  <h5 className="text-uppercase">Portfolio website</h5>
                 </div>
                 <a
                   className="ad-btn"
-                  href="https://weather-app-beta-beige.vercel.app/"
+                  href="https://rashmi-portfolio-site.netlify.app/"
                 >
                   View
                 </a>
