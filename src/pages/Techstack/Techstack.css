@@ -1,0 +1,82 @@
+.techstack {
+  width: 100%;
+  margin: 80px 0px;
+  padding: 20px 10px;
+  margin-left: 100px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.077);
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+}
+.techstack hr {
+  color: #7e8282;
+  width: 300px;
+  margin: 10px auto;
+}
+
+.techstack h2 {
+  font-weight: bold;
+  color: #f8fafa;
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.techstack p {
+  color: white;
+}
+
+.techstack .card {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(82, 158, 213, 0.2);
+  background-color: #ffcab0;
+  color: black;
+  height: 50px;
+  width: 200px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+}
+
+.techstack .tech-icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.techstack .card:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(250, 167, 116);
+  box-shadow: 5px 5px 10px rgba(220, 202, 202, 0.305);
+  transition: 1s;
+}
+
+.media-body {
+  font-size: 0.5rem;
+}
+
+/* ======================light======================== */
+
+#light .techstack {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+  background-color: rgba(78, 77, 80, 0.052);
+}
+#light .techstack h2 {
+  color: black;
+}
+#light .techstack p {
+  color: black;
+}
+
+/* =============================== */
+@media (max-width: 600px) {
+  .techstack {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .techstack hr {
+    width: 280px;
+  }
+}

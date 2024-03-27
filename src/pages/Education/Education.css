@@ -1,0 +1,62 @@
+.education {
+  width: 100%;
+  margin: 60px 0px;
+  padding: 15px;
+  margin-left: 100px;
+  /* justify-content: center;
+  align-items: center; */
+  color: white;
+  border-radius: 12px;
+  background-color: rgba(240, 248, 255, 0.077);
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+}
+
+.education hr {
+  color: #636768;
+  width: 380px;
+  margin: 10px auto;
+  padding-top: 20px;
+}
+
+.education h2 {
+  font-weight: bold;
+  color: #fdfdfd;
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+}
+
+.education .vertical-timeline-element-title {
+  color: black;
+}
+
+.education .vertical-timeline-element-subtitle {
+  color: cadetblue;
+}
+
+/* ==============================dark mode===================== */
+#light .education {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+  background-color: rgba(78, 77, 80, 0.052);
+}
+
+#light .education h2 {
+  color: black;
+}
+
+/* =================mediaquery============ */
+
+@media (max-width: 600px) {
+  .education {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .education h2 {
+    padding-top: 20px;
+  }
+  .education hr {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+}

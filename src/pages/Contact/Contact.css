@@ -1,0 +1,158 @@
+.contact {
+  width: 100%;
+  margin: 80px 0px;
+  padding: 20px 10px;
+  margin-left: 100px;
+  color: rgba(5, 0, 0, 0.186);
+  background-color: rgba(240, 248, 255, 0.077);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+}
+
+.card0 {
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.card2 {
+  margin: 20px 0px;
+  width: 100%;
+  color: black;
+  text-shadow: 5px 5px 10px rgba(18, 0, 0, 0.463);
+  color: #0e0000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(240, 248, 255, 0);
+  justify-content: center;
+}
+
+.hdr {
+  font-size: 2rem;
+  text-shadow: 5px 5px 10px rgba(18, 0, 0, 0.463);
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card1 .image {
+  height: 440px;
+  width: 95%;
+  border-radius: 18px;
+  margin-left: 20px;
+}
+
+/* .border-line {
+  border-right: 2px solid #e0e0e02d;
+} */
+
+.line {
+  height: 0.5px;
+  width: 45%;
+  background-color: #fffefe;
+  margin-top: 10px;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  color: white;
+  /* font-weight: bold; */
+}
+
+::placeholder {
+  color: #5e5a5a;
+  opacity: 3;
+  font-weight: 400;
+}
+
+input {
+  padding: 10px 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 2px;
+  width: 100%;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea {
+  padding: 20px 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-top: 4px;
+  margin-top: 2px;
+  width: 100%;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  /* box-shadow: none !important; */
+  box-shadow: 0px 4px 4px 0px rgba(59, 60, 61, 0.295);
+  outline: 1px solid #7ddcfe !important;
+  outline-width: 1px;
+}
+
+button:focus {
+  box-shadow: none;
+  outline-width: 0px;
+}
+
+.button {
+  background-color: #5a4fcf;
+  color: rgb(9, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 7px 10px 0px rgba(28, 38, 43, 0.505);
+}
+
+.button:hover {
+  background-color: #000004;
+  color: rgb(252, 250, 250);
+  font-weight: bold;
+  border: 1px solid #121111;
+  box-shadow: 0px 7px 10px 0px rgba(58, 56, 56, 0.786);
+}
+
+/* dark================= */
+
+#light .contact {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.304) 1.95px 1.95px 2.6px;
+  background-color: rgba(78, 77, 80, 0.052);
+}
+
+#light .card0,
+.card2 {
+  /* background-color: rgba(149, 55, 237, 0.003); */
+  background-color: rgba(78, 77, 80, 0);
+}
+#light .hdr,
+.or {
+  color: black;
+}
+
+/* ============mediaquery============ */
+@media (max-width: 600px) {
+  .contact {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .contact .card2 {
+    margin: 0;
+  }
+
+  .contact .card2 h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
